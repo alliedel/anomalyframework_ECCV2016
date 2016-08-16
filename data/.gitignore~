@@ -1,0 +1,4 @@
+input/features/*
+results/*
+tmp/*
+!input/features/Avenue/03.train
