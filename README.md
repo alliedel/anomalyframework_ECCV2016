@@ -1,4 +1,4 @@
-### Discriminative Framework for Anomaly Detection
+## Discriminative Framework for Anomaly Detection
 
 Code base owner (and author): Allie Del Giorno
 
@@ -6,7 +6,7 @@ This code implements the discriminative framework for the A. Del Giorno, J.A. Ba
 
 If you have issues running the code or plan to use it for research purposes, please contact me: adelgior@cs.cmu.edu .
 
-#### Installation
+### Installation
 
 You must first compile the C++ executable with:
 
@@ -14,9 +14,9 @@ You must first compile the C++ executable with:
 
 If you have any issues, try installing liblinear or libsvm separately work through the well-documented issues the people sometimes have.  My code is built on top of liblinear, and shouldn't produce any other compilation issues.
 
-#### Usage
+### Usage
 
-##### Demo
+#### Demo
 
 Run the script 'demo.m':
 
@@ -26,7 +26,7 @@ This script should run and terminate with a print statement "Demo success!" and 
 
 On my (laptop) machine, it takes about 1 minute.
 
-##### Modifications
+#### Modifications
 
 You'll want to modify the script code/scripts/runscript.m as a starting point.
 
@@ -34,7 +34,7 @@ Parameter modifications can be made in Configure.m (make your own configuration)
 
 The set of all parameters and their defaults are listed in code/src/configure/DefaultPars.m .  You can change most of these parameters in Configure.m .
 
-#### Functionality
+### Functionality
 
 This code takes a .train file (libsvm format) and returns a .mat file with an anomaly score for each point.
 
@@ -42,12 +42,12 @@ It will NOT generate features for videos.  One set of features is provided for y
 
 https://github.com/alliedel/videofeatures
 
-#### System Requirements
+### System Requirements
 
-##### Linux with MATLAB
+#### Linux with MATLAB
 
 This code has been tested on Ubuntu 12.04.  The 'core' of the implementation is in C++, though some functionality/wrapping is provided in MATLAB.
 
-#### Other notes
+### Other notes
 
 This code was originally combined with the feature generation code before I decided to split it for usability, so if you see remnants of that code, my apologies!
