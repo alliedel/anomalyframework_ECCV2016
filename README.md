@@ -4,13 +4,13 @@ If you have issues running the code or plan to use it for research purposes, ple
 
 ===== Installation =====
 You must first compile the C++ executable with:
->> sh install.sh
+">> sh install.sh"
 If you have any issues, try installing liblinear or libsvm separately work through the well-documented issues the people sometimes have.  My code is built on top of liblinear, and shouldn't produce any other compilation issues.
 
 ===== Usage =====
  == Demo
 Run the script 'demo.m':
->> matlab -r demo
+">> matlab -r demo"
 This script should run and terminate with a print statement "Demo success!" and a time.
 On my (laptop) machine, it takes about 1 minute.
 
