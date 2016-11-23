@@ -26,6 +26,8 @@ This script should run and terminate with a print statement "Demo success!" and 
 
 On my (laptop) machine, it takes about 1 minute.
 
+If the demo does not succeed, the code was not installed correctly.  Be sure you ran the install script, and if MATLAB complains of missing functions, first check code/src/externaltools/README
+
 #### Modifications
 
 You'll want to modify the script code/scripts/runscript.m as a starting point.
