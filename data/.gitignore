@@ -2,4 +2,3 @@ input/features/*
 results/*
 tmp/*
 !input/features/Avenue/03_feaPCA.train
-!input/features/Avenue/
