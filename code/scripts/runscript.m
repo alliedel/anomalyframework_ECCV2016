@@ -9,7 +9,7 @@ if ~exist('volnum','var')
 end
 
 % ==== Parameters / User Input
-feats_libsvm = sprintf('~/Documents/CVPR2015/code_release/features/Avenue_Dataset/testing_videos/%02d_feaPCA.train',volnum);
+feats_libsvm = sprintf('../../data/input/features/Avenue/%02d_feaPCA.train',volnum);
 videoname = sprintf('%02d',volnum); % used as an identifier; gets included in all the filenames the code produces
 CONFIGSTRING = 'default';
 diary debug_runscript.txt
