@@ -1,5 +1,5 @@
 if ~exist('code/src/externaltools/my_tools/AbsolutePath.m')                                                                       
-  disp('Please clone the my_tools repo according to the instructions in anomalyframework_ECCV2016/code/src/externaltools/README.md')
+  error('Please clone the my_tools repo according to the instructions in anomalyframework_ECCV2016/code/src/externaltools/README.md')
 end
 
 d=pwd();
